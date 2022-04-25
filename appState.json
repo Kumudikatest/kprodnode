@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "kprodnode.js",
         "cursor": {
-          "lineNumber": 14,
-          "column": 29
+          "lineNumber": 1,
+          "column": 1
         },
         "config": {
           "runtime": "nodejs14.x",
@@ -28,7 +28,16 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1650875805562
+        "lastUpdated": 1650875805562,
+        "testCases": {
+          "20d7ade4-53d6-4cb2-8067-2e76000bd774": {
+            "id": "20d7ade4-53d6-4cb2-8067-2e76000bd774",
+            "name": "Test event",
+            "functionId": "f41d5aaf-ca26-4324-9622-359a76816e7b",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
       },
       "b523b0aa-ee78-487d-891f-24060891731a": {
         "id": "b523b0aa-ee78-487d-891f-24060891731a",
@@ -78,6 +87,7 @@
         "config": {
           "mode": 0,
           "name": "kpool",
+          "arn": "arn:aws:cognito-idp:ap-south-1:318300609668:userpool/undefined",
           "userPool": {
             "Name": "kpool",
             "isNew": true,
@@ -267,7 +277,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1650875938388
+    "lastSave": 1650876618772
   },
   "VCS_STATE": {
     "provider": "GitHub",

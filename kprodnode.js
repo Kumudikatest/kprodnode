@@ -7,10 +7,8 @@ exports.handler = async (event) => {
             UserPoolId: process.env.UserPoolId_cognitokpool,
             Limit: 10
         }).promise();
-        console.log(daa);
 
     } catch (err) {
-        console.log(err);
         // error handling goes here
     };
 
